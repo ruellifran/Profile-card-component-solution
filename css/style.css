@@ -10,12 +10,15 @@ body {
 
 main {
   height: 100vh;
+  display: flexbox;
 }
 
 .card {
   width: 350px;
   margin: auto;
   border-radius: 20px;
+  background-color: grey;
+  display: flexbox;
 }
 
 .foto-victor {
@@ -40,13 +43,11 @@ main {
 
 .stats {
   background-color: grey;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
   width: 350px;
 }
 
-.metricas {
+/* .metricas {
   font-size: smaller;
   font-weight: 100;
   color: hsl(0, 0%, 59%);
-}
+} */
